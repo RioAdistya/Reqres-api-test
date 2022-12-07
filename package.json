@@ -1,0 +1,21 @@
+{
+  "name": "reqres-api-test",
+  "version": "1.0.0",
+  "description": "testing rest-api reqres",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha --spec test/chaiAssert.js --reporter mochawesome --timeout 10000",
+    "test_get": "mocha test/supertestRequest.js --timeout 10000"
+  },
+  "author": "rio",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5"
+  }
+}
