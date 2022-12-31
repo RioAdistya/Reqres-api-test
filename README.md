@@ -18,8 +18,14 @@ git clone https://github.com/RioAdistya/myskill-testing-JS.git
 ```
 npm install
 ```
-4. Run mocha test 
+4. how to run
+
+run with chaiAssert
 ```
-npm run test {path/to/file}.js
+npm run test
 ```
 
+run with supertestRequest
+```
+npm run test_get
+```
